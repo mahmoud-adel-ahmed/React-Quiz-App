@@ -28,6 +28,9 @@ const Home = () => {
     setError(false);
     await fetchQuestions(category, difficulty);
     navigate("/quiz");
+    setDifficulty("");
+    setCategory("");
+    setName("");
   };
 
   return (
