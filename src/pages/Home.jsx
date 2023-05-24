@@ -1,6 +1,6 @@
 import { Button, MenuItem, TextField } from "@mui/material";
 import React, { useState } from "react";
-import Categories from "../data/categories";
+import Categories from "../../src/data/Categories";
 import { useNavigate } from "react-router-dom";
 import ErrorMessage from "../components/ErrorMessage";
 import { UseQuizContext } from "../context";
