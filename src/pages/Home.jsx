@@ -4,6 +4,7 @@ import Categories from "../../src/data/Categories";
 import { useNavigate } from "react-router-dom";
 import ErrorMessage from "../components/ErrorMessage";
 import { UseQuizContext } from "../context";
+import Img from "../assets/quiz.svg";
 
 const Home = () => {
   let [category, setCategory] = useState("");
@@ -87,7 +88,7 @@ const Home = () => {
           </Button>
         </div>
       </div>
-      <img src="../../src/assets/quiz.svg" alt="quiz img" className="banner" />
+      <img src={Img} alt="quiz img" className="banner" />
     </div>
   );
 };
