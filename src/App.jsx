@@ -9,7 +9,7 @@ const App = () => {
   return (
     <div
       className="app"
-      style={{ backgroundImage: 'url("./src/assets/ques1.png")' }}
+      style={{ backgroundImage: 'url("src/assets/ques1.png")' }}
     >
       <Header />
       <Routes>
